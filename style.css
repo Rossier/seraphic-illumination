@@ -1,0 +1,79 @@
+/* Write some CSS below */
+body {
+    font-family: "Assistant", Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Rubik", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.banner {
+    background-image: url("images/ffxiv_12072021_044718_877.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px;
+}
+
+.banner p {
+    font-size: 2.5rem;
+}
+
+.cards {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+img {
+    float: left;
+    width: 640px;
+    height: 360px;
+    object-fit: cover;
+    padding-right: 20px;
+}
+
+.image-right {
+    text-align: right;
+    width: 640px;
+    height: 360px;
+    object-fit: cover;
+    padding-right: 20px;
+}
+
+.image-text {
+    font-size: 20px;
+    float: left;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: darkgray;
+    color: white;
+    padding: 30px;
+    margin-top: 2rem;
+}
+
+.footer-image {
+    width: 20px;
+    height: 20px;
+}
